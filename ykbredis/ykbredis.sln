@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{CD51F1B4-D59B-4BC7-9F47-EEB964DFCA55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ykbredis.data", "data\ykbredis.data\ykbredis.data.csproj", "{D399B8EC-6C74-4A39-8A59-68F7E14AA021}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{561B0714-40F2-4748-BF3B-07B098EF05FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ykbredis.app", "app\ykbredis.app\ykbredis.app.csproj", "{15EEC5DB-74D4-435C-9D35-BF9A4EA642A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{547F378E-CCFA-423E-BF9D-D3B35CD0B945}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ykbredis.core", "core\ykbredis.core\ykbredis.core.csproj", "{174EFA5F-AECC-40D5-86BE-CA7E2F67A561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ykbredis.app1", "app\ykbredis.app1\ykbredis.app1.csproj", "{18FCE407-F439-4931-97BE-ACD08B67A29F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D399B8EC-6C74-4A39-8A59-68F7E14AA021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D399B8EC-6C74-4A39-8A59-68F7E14AA021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D399B8EC-6C74-4A39-8A59-68F7E14AA021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D399B8EC-6C74-4A39-8A59-68F7E14AA021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15EEC5DB-74D4-435C-9D35-BF9A4EA642A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15EEC5DB-74D4-435C-9D35-BF9A4EA642A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15EEC5DB-74D4-435C-9D35-BF9A4EA642A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15EEC5DB-74D4-435C-9D35-BF9A4EA642A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{174EFA5F-AECC-40D5-86BE-CA7E2F67A561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174EFA5F-AECC-40D5-86BE-CA7E2F67A561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174EFA5F-AECC-40D5-86BE-CA7E2F67A561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174EFA5F-AECC-40D5-86BE-CA7E2F67A561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18FCE407-F439-4931-97BE-ACD08B67A29F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FCE407-F439-4931-97BE-ACD08B67A29F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FCE407-F439-4931-97BE-ACD08B67A29F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FCE407-F439-4931-97BE-ACD08B67A29F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D399B8EC-6C74-4A39-8A59-68F7E14AA021} = {CD51F1B4-D59B-4BC7-9F47-EEB964DFCA55}
+		{15EEC5DB-74D4-435C-9D35-BF9A4EA642A0} = {561B0714-40F2-4748-BF3B-07B098EF05FD}
+		{174EFA5F-AECC-40D5-86BE-CA7E2F67A561} = {547F378E-CCFA-423E-BF9D-D3B35CD0B945}
+		{18FCE407-F439-4931-97BE-ACD08B67A29F} = {561B0714-40F2-4748-BF3B-07B098EF05FD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A5F3319-76F8-46C0-8657-E59F7344C822}
+	EndGlobalSection
+EndGlobal
